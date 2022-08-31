@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 // next create object
 // adding json data to our file
 
-const mockData = [{ name: "Manish" }, { name: "Kishan" }];
+const mockData = [{ name: "Manish" }, { name: "Dev" }];
 
 app.get("/", (req, res) => {
   res.json({
